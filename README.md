@@ -128,10 +128,7 @@ python main.py --both
 # Option 4: Run evaluation pipeline
 python main.py --evaluate
 
-# Option 5: Evaluate with a specific test document
-python main.py --evaluate path/to/document.pdf
-
-# Option 6: Gradio with public share link
+# Option 5: Gradio with public share link
 python main.py --share
 ```
 
@@ -142,7 +139,7 @@ python main.py --share
 | Component | Technology |
 |-----------|------------|
 | **LLM** | Groq — LLaMA 3.3 70B Versatile |
-| **Embeddings** | Sentence Transformers — all-MiniLM-L6-v2 |
+| **Embeddings** | Sentence Transformers — all-mpnet-base-v2 |
 | **Vector Store** | FAISS (Facebook AI Similarity Search) |
 | **Framework** | LangChain + LangGraph |
 | **API Server** | FastAPI + LangServe |
@@ -191,7 +188,6 @@ Run the evaluation pipeline to test:
 
 ```bash
 python main.py --evaluate
-python main.py --evaluate test_document.pdf
 ```
 
 Results are saved to `evaluation_report.md`.
