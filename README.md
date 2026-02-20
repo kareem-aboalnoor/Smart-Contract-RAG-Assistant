@@ -55,7 +55,7 @@ An AI-powered **Retrieval-Augmented Generation (RAG)** application that lets you
               │
        ┌──────┴──────┐
        │  Embeddings  │
-       │(MiniLM-L6-v2)│
+     (all-mpnet-base-v2)│
        └─────────────┘
 ```
 
