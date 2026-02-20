@@ -7,7 +7,6 @@ An AI-powered **Retrieval-Augmented Generation (RAG)** application that lets you
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-teal)
 ![Groq](https://img.shields.io/badge/LLM-LLaMA%203.3%2070B-orange)
 ![Gradio](https://img.shields.io/badge/UI-Gradio-yellow)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
